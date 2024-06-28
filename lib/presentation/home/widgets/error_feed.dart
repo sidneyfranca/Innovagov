@@ -9,7 +9,7 @@ class ErrorFeed extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        "An Error Occurred",
+        "Ocorreu um erro",
         style: themeData.textTheme.displaySmall,
       ),
     );

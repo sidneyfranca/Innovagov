@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ddd_feed">
+    package="com.ufrpe.fpa">
    <application
         android:label="ddd_feed"
         android:name="${applicationName}"

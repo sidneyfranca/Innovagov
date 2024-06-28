@@ -33,7 +33,7 @@ class ActivityScreen extends StatelessWidget {
         if (state.isLoading) {
           return Center(
             child: Text(
-              "Loading... Hang Tight!",
+              "Carregando... Segure firme!",
               style: themeData.textTheme.displaySmall,
             ),
           );

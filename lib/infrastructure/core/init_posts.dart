@@ -2,12 +2,12 @@ final initPosts = {
   "posts": [
     {
       "id": 1,
-      "name": "Jane Doe",
-      "handle": "@janedoe",
+      "name": "João Campos",
+      "handle": "@joaocampos",
       "time": "2023-02-22 08:59:37",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "image":
-          "https://images.unsplash.com/photo-1681204620601-5b0806930959?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "https://veja.abril.com.br/wp-content/uploads/2020/12/JOAO-CAMPOS-REVISTA-VEJA3.JPG.jpg?quality=90&strip=info&w=1280&h=720&crop=1",
       "likes": 123,
       "comments": 45,
       "dislikes": 6,
@@ -18,8 +18,8 @@ final initPosts = {
     },
     {
       "id": 2,
-      "name": "John Smith",
-      "handle": "@johnsmith",
+      "name": "Raquel Lyra",
+      "handle": "@raquellyra",
       "time": "2023-03-26 16:20:54",
       "content":
           "Praesent eget magna ac turpis dignissim luctus diam ac diam euismod, non auctor magna pulvinar.",
@@ -34,13 +34,13 @@ final initPosts = {
     },
     {
       "id": 3,
-      "name": "Emily Johnson",
-      "handle": "@emilyj",
+      "name": "Lula",
+      "handle": "@lulaoficial",
       "time": "2023-01-27 12:28:18",
       "content":
           "Vivamus venenatis nisl a massa tempus, id finibus eros euismod.",
       "image":
-          "https://images.unsplash.com/photo-1681313171433-f92cf1eaccae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "https://media.gazetadopovo.com.br/2024/06/06100831/lula-meio-ambiente4_mcamgo_abr_05062024-3_44-1280x720.jpg",
       "likes": 789,
       "comments": 23,
       "dislikes": 9,
@@ -51,8 +51,8 @@ final initPosts = {
     },
     {
       "id": 4,
-      "name": "David Lee",
-      "handle": "@davidl",
+      "name": "Jair Bolsonaro",
+      "handle": "@jairbolsonaro",
       "time": "2023-04-19 05:12:05",
       "content": "Suspendisse sit amet ex quis nisi ullamcorper pulvinar.",
       "image": null,
@@ -66,13 +66,13 @@ final initPosts = {
     },
     {
       "id": 5,
-      "name": "Sarah Kim",
-      "handle": "@sarahk",
+      "name": "Erika Hilton",
+      "handle": "@erikahilton",
       "time": "2023-01-17 20:30:41",
       "content":
           "Nulla tincidunt quam at erat bibendum, ut sollicitudin lorem malesuada.",
       "image":
-          "https://images.unsplash.com/photo-1681116407296-848937ae1961?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2024/02/21174118/erika-hilton-6.jpg",
       "likes": 567,
       "comments": 34,
       "dislikes": 7,
@@ -83,7 +83,7 @@ final initPosts = {
     },
     {
       "id": 6,
-      "name": "Michael Chen",
+      "name": "Michaelle Bolsonaro",
       "handle": "@michaelc",
       "time": "2023-03-27 13:54:09",
       "content":
@@ -99,13 +99,13 @@ final initPosts = {
     },
     {
       "id": 7,
-      "name": "Julia Baker",
-      "handle": "@juliab",
+      "name": "Carla Zambelli",
+      "handle": "@carlazambelli",
       "time": "2023-03-04 04:39:02",
       "content":
           "Proin id felis at metus dapibus ultrices vel eu metus. Sed aliquet eros in metus lacinia, non maximus sapien bibendum.",
       "image":
-          "https://plus.unsplash.com/premium_photo-1664889357864-c5b963d74431?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+          "https://www.camara.leg.br/internet/deputado/bandep/pagina_do_deputado/204507.jpg",
       "likes": 234,
       "comments": 54,
       "dislikes": 5,
@@ -116,8 +116,8 @@ final initPosts = {
     },
     {
       "id": 8,
-      "name": "Daniel Brown",
-      "handle": "@danielb",
+      "name": "Erika Kokay",
+      "handle": "@erikakokay",
       "time": "2023-01-30 19:46:50",
       "content":
           "Vestibulum nec metus in sapien bibendum tempor sit amet sed neque. Nulla facilisi.",
@@ -132,13 +132,13 @@ final initPosts = {
     },
     {
       "id": 9,
-      "name": "Avery Taylor",
-      "handle": "@averyt",
+      "name": "Pr Henrique Vieira",
+      "handle": "@prhenriquevieira",
       "time": "2023-04-19 10:16:31",
       "content":
           "Donec lobortis arcu nec metus pretium, vitae maximus metus interdum. In hac habitasse platea dictumst.",
       "image":
-          "https://images.unsplash.com/photo-1681066471063-94f665643fb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+          "https://www.camara.leg.br/internet/deputado/bandep/pagina_do_deputado/220615.jpg",
       "likes": 789,
       "comments": 89,
       "dislikes": 4,

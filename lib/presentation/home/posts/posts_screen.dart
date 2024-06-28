@@ -18,7 +18,7 @@ class PostsScreen extends StatelessWidget {
         if (state.isLoading) {
           return Center(
             child: Text(
-              "Loading... Hang Tight!",
+              "Carregando... Aguente firme!",
               style: themeData.textTheme.displaySmall,
             ),
           );

@@ -18,7 +18,7 @@ class App extends StatelessWidget {
     return BlocProvider(
       create: (context) => getIt<PostsBloc>()..add(GetPosts()),
       child: MaterialApp(
-        title: 'Circle',
+        title: 'InnovaGov',
         debugShowCheckedModeBanner: false,
         theme: themeData,
         home: const Scaffold(

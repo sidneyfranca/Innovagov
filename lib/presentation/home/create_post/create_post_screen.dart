@@ -31,7 +31,7 @@ class CreatePostScreen extends HookWidget {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text(
-                    "Something went wrong.",
+                    "Ocorreu algo errado",
                     style: themeData.textTheme.displaySmall?.copyWith(
                       color: AppColors.white,
                     ),
@@ -54,7 +54,7 @@ class CreatePostScreen extends HookWidget {
               child: state.isLoading
                   ? Center(
                       child: Text(
-                        "Loading... Hang Tight!",
+                        "Carregando... Aguente firme!",
                         style: themeData.textTheme.displaySmall,
                       ),
                     )
@@ -71,7 +71,7 @@ class CreatePostScreen extends HookWidget {
                             ),
                             Space.vSM(context),
                             Text(
-                              "Create post",
+                              "Criar post",
                               style: themeData.textTheme.displayMedium,
                             ),
                             const Spacer(),
@@ -94,7 +94,7 @@ class CreatePostScreen extends HookWidget {
                         Space.hSM(context),
                         AppTextfield(
                           controller: controller,
-                          hintText: 'Tell your circle what\'s happening.',
+                          hintText: 'Diga aos seus amigos o que está acontecendo.',
                         ),
                         Space.hXSM(context),
                         if (pickedFile.value != null) ...[
@@ -124,8 +124,8 @@ class CreatePostScreen extends HookWidget {
                               heroIcons: HeroIcons.photo,
                               heroIconStyle: HeroIconStyle.outline,
                               label: pickedFile.value != null
-                                  ? "Replace photo"
-                                  : "Add a photo",
+                                  ? "Substituir foto"
+                                  : "Adicionar foto",
                             ),
                             if (pickedFile.value != null)
                               ActionButton(
@@ -135,7 +135,7 @@ class CreatePostScreen extends HookWidget {
                                 heroIcons: HeroIcons.trash,
                                 heroIconStyle: HeroIconStyle.outline,
                                 color: AppColors.red,
-                                label: "Remove photo",
+                                label: "Remover foto",
                               ),
                           ],
                         ),

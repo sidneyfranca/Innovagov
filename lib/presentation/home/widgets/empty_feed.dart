@@ -18,13 +18,13 @@ class EmptyFeed extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            "No Posts Yet",
+            "Nenhum post ainda",
             style: themeData.textTheme.displaySmall,
           ),
           Space.hXSM(context),
           AppButton(
             child: Text(
-              "Generate Intial Posts",
+              "Gerar posts iniciais",
               style: themeData.textTheme.displaySmall,
             ),
             onPressed: () {

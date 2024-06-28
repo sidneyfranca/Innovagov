@@ -21,7 +21,7 @@ class AppAppBar extends StatelessWidget implements PreferredSizeWidget {
             heroIconStyle: HeroIconStyle.outline,
           ),
           Text(
-            'CIRCLE',
+            'InnovaGov',
             style: themeData.textTheme.titleLarge,
           ),
           const ActionButton(
